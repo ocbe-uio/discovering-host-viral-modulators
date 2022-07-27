@@ -2,7 +2,7 @@
 install.packages(HPAAnalyze)
 library(HPAanalyze)
 
-node_attributes <- read_excel("~/Desktop/codes_submission/node_attributes.xlsx")
+node_attributes <- read_excel("node_attributes.xlsx")
 names(node_attributes)[names(node_attributes) == "Gene name"] <- "Gene_name"
 names(node_attributes)[names(node_attributes) == "Target class"] <- "Target_class"
 
